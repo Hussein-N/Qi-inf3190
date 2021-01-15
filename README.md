@@ -17,7 +17,7 @@
  ```ssh
  $ git clone https://github.com/Hussein-N/Qi-inf3190.git
  ```
-Entrer dans le fichier de l'application qi et démarrer l'application `ng serve`
+Entrer dans le fichier de l'application qi et démarrer l'application avec: `ng serve`
 
 Ouvrir un navigateur web et visiter l'url (page principale): `localhost:4211/`
 
