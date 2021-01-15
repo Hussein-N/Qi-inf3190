@@ -1,0 +1,28 @@
+<div class="container">
+	<label for="prenom">Prenom:
+		  <input id="prenom" class="input" type="text" [formControl]="prenom">
+		  <p id="msg_err1" style="color: red; font-size: small;"></p><br>
+	</label>
+
+	<br>
+
+	<label for="quantite">Quantité:
+			<input id="quantite" class="input" type="text" [formControl]="quantite">
+		  	<p id="msg_err2" style="color: red; font-size: small;"></p>
+	</label>
+
+	<br>
+	
+	<label style=" align-self: center;" for="Identifiant">Identifiant<br>
+	
+		<select id="Identifiant"  name="Identifiant" [formControl]="id" style="width: 200px;">
+
+				<option *ngFor = "let article of bd" value="{{article.id}}">{{article.id}}</option>
+
+		</select>
+	</label>
+
+	<br><a href="../paiement/"><input class="submit" type="submit" (click)="valider()" value="Submit"></a>
+	<a href="../suivi" style="font-size: smaller; color: aliceblue; text-align: end; margin-top: 20px; text-decoration: none;">Déja fait une commande ?</a>
+</div>
+

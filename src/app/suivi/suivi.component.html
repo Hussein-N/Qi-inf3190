@@ -1,0 +1,10 @@
+<div class="container">
+
+	<label for="suivi">
+ 		Entrer votre numero de commande:
+		<input id="suivi" class="input" type="text" [formControl]="numeroCommande">
+		<p id="msgErreur" style="color: red; font-size: smaller;"></p>
+	</label><br>
+	<button type="submit" class="submit" (click)="chercher()">Chercher</button><br>
+	<p id="resultat" style="line-height: 22px;"> 0 resultat</p> 
+</div>

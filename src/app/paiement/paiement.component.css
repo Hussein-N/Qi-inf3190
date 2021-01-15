@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: Montserrat;
+	color: white;
+}
+
+body {
+	background: url('../../assets/images/background.png') no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 550px;
+	background-color: #03131b;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: column;
+}

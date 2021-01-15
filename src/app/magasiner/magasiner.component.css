@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.image_acceuil_bd {
+	border: 0px solid #03131b;
+	border-radius: 0px;
+	padding: 5px;
+	width: auto;
+	margin-left: 100px;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+.image_acceuil_bd:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.hr_acceuil_bd {
+	border: 1px solid #03131b;
+	margin-bottom: 10px;
+	width: 101%;
+}
+
+.span_acceuil_bd {
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.container {
+	display: flex;
+	color: #03131b;
+}
+
+.text_acceuil_bd {
+	margin-left: 50px;
+	line-height: 30px;
+}
+
+.acceuil_footer {
+	color: black;
+	top: 30px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+}
+
+.acceuil_footer a {
+	color: #03131b;
+	text-decoration: none;
+}
+
+.acceuil_footer a:hover {
+	color: #03131b;
+	text-decoration: none;
+}

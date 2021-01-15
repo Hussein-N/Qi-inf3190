@@ -1,0 +1,33 @@
+<div style="font-family: Montserrat;">
+
+	<h1 id = "longeur_liste" style="text-align: center;">{{longueur_liste_bd}} Article(s)</h1>
+	<hr class="hr_acceuil_bd"> 
+	<div *ngFor = "let article of bd">
+		<div class = "container">
+		<img class="image_acceuil_bd" src="../assets/images/{{article.image}}" alt="image_{{article.image}}">			  
+			<div class="text_acceuil_bd">
+		  		<h2><em>{{article.nom}} </em><span class="span_acceuil_bd">{{article.id}}</span></h2>
+				<em>  Marque: </em>{{article.marque}}<br>
+				<em>  Description: </em>{{article.description}}<br>
+		  		<em>  Prix: {{article.prix.toFixed(2)}}$</em><br>  
+			</div>
+		</div>
+		<hr class="hr_acceuil_bd"> 
+	</div>
+
+	<footer>
+		<address class="acceuil_footer">
+			  <div style="color:#03131b;">
+			  Ce site est développé dans le cadre du cours INF3190 de l'UQAM.<br>
+			  <a href="mailto:nahle.hussein@ens.uqam.ca">Hussein Nahle</a><br>
+			  <a href="http://www.uqam.ca">UQAM</a><br>
+			  <a href="http://www.etudier.uqam.ca/cours?sigle=INF3190">INF3190</a><br>
+			  <a routerLink="../gerant">gerant</a><br>
+			  <a href="https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/" target="_blanc">Covid19</a><br>
+			  <a href="../assets/data/bd.json" target="_blanc">Données bruts bd.json</a><br>
+			  <a href="../assets/data/commandes.json" target="_blanc">Données bruts commandes.json</a>
+			  </div>		 
+		</address>
+	</footer>
+	
+</div>

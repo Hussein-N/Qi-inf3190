@@ -1,0 +1,48 @@
+{"liste":
+	[
+	 	{
+	 	"id" : "A00001",
+	 	"nom" :"Ordinateur portable",
+	 	"marque":"Apple", 
+	 	"prix": 2999.00, 
+	 	"description":"16' MacBook Pro with Touch Bar & Touch ID - 2.6GHz Intel Core i7 - 16GB RAM - 512GB SSD - Space Gray", 
+	 	"image":"OP.png" 
+	 	},
+	 	
+	 	{
+	 	"id" : "A00002",
+	 	"nom" :"Imprimante",
+	 	"marque":"Hp", 
+	 	"prix": 569.99, 
+	 	"description":"HP LaserJet Pro Colour Wireless All-In-One Printer (M479fdw)", 
+	 	"image":"imprimante.png" 
+	 	},
+	 	
+	 	{
+	 	"id" : "A00003",
+	 	"nom" :"Scanner",
+	 	"marque":"Epson", 
+	 	"prix": 499.99, 
+	 	"description":"Epson WorkForce ES-500W Wireless Colour Duplex Document Scanner for PC and Mac, Auto Document Feeder (ADF)", 
+	 	"image":"scanner.png" 
+	 	},
+	 	
+	 	{
+	 	"id" : "A00004",
+	 	"nom" :"Casque à écouteurs", 
+	 	"marque":"Sony", 
+	 	"prix": 349.99 , 
+	 	"description":"Sony Over-Ear Noise Cancelling Headphones (WH1000XM3/S) - Silver", 
+	 	"image":"ecouteur.png" 
+	 	},
+	 	
+	 	{
+	 	"id" : "A00005",
+	 	"nom" :"Routeur Wifi", 
+	 	"marque":"ASUS",
+	 	"prix": 200.00 , 
+	 	"description":"ASUS AC3100 Wireless Dual-Band 4-Port Gigabit Wi-Fi 5 Gaming Router w/AiProtection (RT-AC3100)", 
+	 	"image":"router.png" 
+	 	}
+	 ]
+}

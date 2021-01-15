@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.contact-png {
+	width: 50%;
+	height: 50%;
+	border-radius: 8px;
+	margin-top: 15px
+}
+
+.logo {
+	margin-top: 10px
+}
+
+.address {
+	color: white;
+	margin-left: 40px;
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 550px;
+	background-color: #03131b;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	font-family: Montserrat;
+	flex-direction: column;
+}
+
+.gerant-png {
+	max-height: 90px;
+	max-width: 90px;
+	margin-top:5px ;
+	padding-left: 35px;
+
+}
+
+.logo {
+	margin: 10px
+}
+
+.container1{
+	display: flex;
+}
+
+.container2{
+	flex-direction: column;
+	display: flex;
+}
+
+span {
+	color: gainsboro;
+}
+
+.info {
+	padding: 0 16px;
+	margin-top: -120px;
+	font-size: small;
+}
+
+.info2 {
+	text-align: right;
+	line-height: 20px;
+	font-size: small;
+	margin-top: 45px;
+}
+
+hr {
+	border: 3px solid gainsboro;
+	border-radius: 5px;
+	margin-bottom: 20px ;
+}
